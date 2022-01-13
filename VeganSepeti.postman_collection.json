@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "9a18c192-c8ae-4523-ac17-5c4d863f74ec",
+		"name": "VeganSepeti",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetCartProducts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44364/api/CartApi/GetCartProducts/666",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44364",
+					"path": [
+						"api",
+						"CartApi",
+						"GetCartProducts",
+						"666"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddProductToCart",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": 2,\r\n    \"Count\": 2,\r\n    \"CustomerId\": 666\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44364/api/CartApi/AddProductToCart",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44364",
+					"path": [
+						"api",
+						"CartApi",
+						"AddProductToCart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateProductCountInCart",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": 2,\r\n    \"Count\": 3,\r\n    \"CustomerId\": 666\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44364/api/CartApi/UpdateProductCountInCart",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44364",
+					"path": [
+						"api",
+						"CartApi",
+						"UpdateProductCountInCart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RemoveProductFromCart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": 2,\r\n    \"CustomerId\": 666\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44364/api/CartApi/RemoveProductFromCart",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44364",
+					"path": [
+						"api",
+						"CartApi",
+						"RemoveProductFromCart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClearCart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44364/api/CartApi/ClearCart/666",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44364",
+					"path": [
+						"api",
+						"CartApi",
+						"ClearCart",
+						"666"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authentication",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserName\": \"cicek\",\r\n    \"Password\": \"sepeti\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44364/api/CartApi/Authenticate",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44364",
+					"path": [
+						"api",
+						"CartApi",
+						"Authenticate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

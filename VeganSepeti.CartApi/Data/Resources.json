@@ -1,0 +1,5 @@
+{
+  "ProductIsNotExistInStocks": "ValidationError: Product is not exist in stocks",
+  "ProductIsNotExistInCart": "ValidationError: Product is not exist in cart",
+  "UserIsInvalid": "Username or password is incorrect!"
+}

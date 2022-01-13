@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeganSepeti.CartApi", "VeganSepeti.CartApi\VeganSepeti.CartApi.csproj", "{8D62E49B-C919-4471-BB76-B5A916B20A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeganSepeti.IntegrationTest", "VeganSepeti.IntegrationTest\VeganSepeti.IntegrationTest.csproj", "{EC93D3AF-D2F7-4C2C-BBB7-F710E906BFB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D62E49B-C919-4471-BB76-B5A916B20A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D62E49B-C919-4471-BB76-B5A916B20A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D62E49B-C919-4471-BB76-B5A916B20A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D62E49B-C919-4471-BB76-B5A916B20A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC93D3AF-D2F7-4C2C-BBB7-F710E906BFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC93D3AF-D2F7-4C2C-BBB7-F710E906BFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC93D3AF-D2F7-4C2C-BBB7-F710E906BFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC93D3AF-D2F7-4C2C-BBB7-F710E906BFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C944895-0855-4153-AAC5-3E635F3CEB1A}
+	EndGlobalSection
+EndGlobal
